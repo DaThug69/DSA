@@ -85,13 +85,13 @@ public class LinkList {
     
     public static void main(String[] args) {
         LinkList ob=new LinkList();
-        ob.addFirst("systum");
-        ob.addLast("hang");
-        ob.addLast("hogayela");
+        ob.addFirst("learning");
+        ob.addLast("DSA");
+        ob.addLast("everyday");
         ob.printList();
         ob.deleteFirst();
         ob.printList();
-        ob.addLast("maaaaaammm");
+        ob.addLast("(trying to)");
         ob.printList();
         ob.deleteLast();
         ob.printList();
